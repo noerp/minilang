@@ -1,0 +1,8 @@
+dependencies {
+	compile vendor('noerp:base:1.0.0')
+	compile vendor('noerp:entity:1.0.0')
+	compile vendor('noerp:security:1.0.0')
+	compile vendor('noerp:service:1.0.0')
+
+	compile fileTree(dir:'lib', include:'*.jar')
+}
